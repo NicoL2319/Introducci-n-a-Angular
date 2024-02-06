@@ -1,0 +1,28 @@
+<p>Nombres works!</p>
+
+<div>
+  <td>Nombre</td>
+  <dd>{{nombre}}</dd>
+
+  <td>Edad</td>
+  <dd>{{edad}}</dd>
+
+  <td>Capitalizado</td>
+  <dd>{{obtenerNombre()}}</dd>
+
+  <td>funcion get</td>
+  <dd>{{nombrecapitalizado}}</dd>
+</div>
+
+<br>
+
+<div>
+  <button (click)="CambiarNombre ()">
+    Cambiar nombre
+  </button>
+
+  <button (click)="CambiarEdad ()">
+    cambiar edad
+  </button>
+</div>
+
